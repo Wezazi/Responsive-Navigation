@@ -21,7 +21,7 @@ button{
     width:200px;
     margin-left:50px; /*To make it aligned with the picture when wrapping */
 
-    /*/*Not setting a height property to the button, will it shrink when the flexbox wraps.*/
+    /*/*Not setting a height property to the button, will make it shrink when the flexbox wraps.*/
     height:100px; /*Setting it to 100% makes it small even though the header height is displayed as 100px. The header is 100px tall because it contains the image which is 100px tall but the header itself has no explicitely set height value, maybe that's why setting the button to 100% doesn't make it 100px */
 
     background-color:purple;
